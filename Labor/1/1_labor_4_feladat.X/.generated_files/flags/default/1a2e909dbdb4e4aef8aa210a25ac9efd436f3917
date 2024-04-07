@@ -1,0 +1,1 @@
+ -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  -Wa,-g,--no-relax,--no-warn$(MP_EXTRA_AS_POST)  -mdfp="${DFP_DIR}/xc16"G:\oktat\2122\digit2\lab\1_labor_4_feladat.X\ledcontrol.s

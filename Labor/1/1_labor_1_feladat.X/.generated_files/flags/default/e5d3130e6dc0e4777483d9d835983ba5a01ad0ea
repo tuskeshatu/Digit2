@@ -1,0 +1,1 @@
+ -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  -Wa,-g$(MP_EXTRA_AS_POST)  -mdfp="${DFP_DIR}/xc16"C:\Users\Levi\Desktop\Digit2\Labor\1\1_labor_1_feladat.X\main.s

@@ -1,0 +1,1 @@
+ -c -mcpu=$(MP_PROCESSOR_OPTION)  -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  -Wa,--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g,--no-relax,--no-warn$(MP_EXTRA_AS_POST)  -mdfp="${DFP_DIR}/xc16"G:\oktat\2122\digit2\lab\1_labor_4_feladat.X\ledcontrol.s
