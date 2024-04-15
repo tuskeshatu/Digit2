@@ -44,11 +44,11 @@ main:
     mov.b #0x55, w0
     mov.b wreg, 0x805
     
-    ;clear wregs and C flag just in case
+    ;clear wregs and SR (flags) just in case
     clr w0
     clr w1
     clr w2
-    clr C
+    clr SR
     
     ;you can access special flags (C, Z, OV, N, RA...) as bits of SR
     ;just add SR to the watch window
