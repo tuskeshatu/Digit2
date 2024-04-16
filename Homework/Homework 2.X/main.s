@@ -67,4 +67,6 @@ main:
     xor w1, [w0], w2
     ;*YOUR CODE ENDS HERE*
     
+loop:
+    bra loop
 .end
